@@ -1,10 +1,10 @@
 import google.generativeai as genai
 import streamlit as st
 
-
 api_key = st.secrets["api_key"]
 
 genai.configure(api_key=api_key)
+
 
 # Select the model
 def select_model():
